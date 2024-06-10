@@ -1,18 +1,23 @@
 ---
-title: Dracula
-theme: rose-pine
+title: Git e GitHub
+theme: default
 header: Git e GitHub
 footer: JAPEX 2024
 paginate: true
 marp: true
 size: 4K
 ---
+<!-- markdownlint-disable MD025 MD033 MD003 MD024 -->
 
 # Git e GitHub
 
-Colaboração e Controle de Versão para Qualquer Área de Conhecimento
+## Colaboração e Controle de Versão para Qualquer Área de Conhecimento
 
-*JAPEX*
+<br/>
+<br/>
+<br/>
+
+***JAPEX***
 
 <style scoped>
 h1 {
@@ -20,18 +25,18 @@ h1 {
 }
 </style>
 
-![bg right 50%](./img/git_github.png)
+![bg right 70%](./img/git_github.png)
 
 ---
 
-## Mauricio Souza Menezes
+# Mauricio Souza Menezes
 
-### Bacharel em Sistema de Informação - UnEB
+## Bacharel em Sistema de Informação - UnEB
 
 - Desenvolvedor de Software
 - Pesquisador em Computação e Bioinformática (G2BC)
 
-### Redes
+## Contato
 
 - E-mail: <mauriciosm95@gmail.com>
 - LinkedIn: <https://www.linkedin.com/in/mau-me/>
@@ -39,18 +44,35 @@ h1 {
 
 ---
 
-## O que é Controle de Versão?
+# Sistema de Controle de Versão
+
+---
+
+# O que é um Sistema de Controle de Versão - VCS?
 
 - Sistema que registra alterações em um arquivo ou conjunto de arquivos ao longo do tempo.
 - Arquivos de texto: código-fonte, documentos, etc.
 - Arquivos binários: imagens, vídeos, etc.
 
-![bg right 50%](./img/git/sistemas_versao.png)
+![bg right 60%](./img/git/sistemas_versao.png)
 ![bg right 90%](./img/git/sistemas_versao_git.png)
 
 ---
 
-## O que é Git?
+# Por Quê Utilizar um Sistema de Controle de Versão?
+
+1. Organização e Histórico de Alterações
+2. Rastrear alterações em arquivos.
+3. Garantir a recuperação de versões anteriores.
+4. Facilitar a colaboração entre pessoas.
+
+---
+
+# Git e GitHub
+
+---
+
+# O que é Git?
 
 - Git é um sistema de controle de versão distribuído.
 - Ele foi inicialmente pensado para rastrear mudanças no código-fonte durante o desenvolvimento de software.
@@ -60,7 +82,7 @@ h1 {
 
 ---
 
-## O que é GitHub?
+# O que é GitHub?
 
 - GitHub é uma plataforma de hospedagem de código-fonte e arquivos baseado no Git.
 - Ele permite que você e outras pessoas trabalhem juntas em projetos de qualquer lugar.
@@ -70,17 +92,11 @@ h1 {
 
 ---
 
-## Por que usar Git e GitHub?
-
-1. **Controle de Versão**: Permite rastrear mudanças em arquivos.
-2. **Colaboração**: Permite que várias pessoas trabalhem juntas em um projeto.
-3. **Backup**: Permite que você mantenha uma cópia de segurança do seu projeto.
-4. **Histórico**: Permite que você veja o histórico de alterações em um projeto.
-5. **Rastreamento de Problemas**: Permite que você rastreie problemas e solicitações de alterações.
+# GIT
 
 ---
 
-## Como funciona o Git?
+# Como funciona o Git?
 
 - Armazena os arquivos em um repositório.
 - Trata seus arquivos como um conjunto de imagens.
@@ -90,17 +106,17 @@ h1 {
 
 ---
 
-## Como funciona o Git?
+# Como funciona o Git?
 
-### Armazenamento dos Arquivos
+## Fluxo de Estado dos Arquivos
 
 ![Armazenamento dos Arquivos no Git](./img/git/funcionamento_git_snapshots.png)
 
 ---
 
-## Como funciona o Git?
+# Como funciona o Git?
 
-### Estados dos Arquivos
+## Áreas de Trabalho do Git
 
 - ***Working Directory***: É onde você trabalha nos arquivos.
 - ***Staging Area***: É onde você prepara os arquivos para serem commitados.
@@ -108,15 +124,15 @@ h1 {
 
 ---
 
-## Como funciona o Git?
+# Como funciona o Git?
 
-### Fluxo de Trabalho do Git
+## Fluxo de Trabalho do Git
 
 ![Fluxo de Trabalho do Git](./img/git/estados_git.png)
 
 ---
 
-## Git - Comandos Básicos
+# Git - Comandos Básicos
 
 - `git init`: Inicializa um repositório Git.
 - `git add <arquivo>`: Adiciona um arquivo ao repositório.
@@ -128,7 +144,13 @@ h1 {
 
 ---
 
-## Mão na massa - Git
+# Mão na Massa - Git
+
+---
+
+# Mão na Massa - Git - Instalação
+
+## Instalação
 
 - Instalar o Git: <https://git-scm.com/>
   - Windows: Download do instalador e executar.
@@ -136,18 +158,26 @@ h1 {
     - Debian/Ubuntu: `sudo apt install git`
   - MacOS: Utilizar o Homebrew.
     - `brew install git`
-- Criar uma conta no GitHub: <https://github.com/signup>
+
+---
+
+# Mão na Massa - Git
+
+## Instalação
+
 - Verificar a instalação:
 
    ```bash
    git --version
    ```
 
+- Criar uma conta no GitHub: <https://github.com/signup>
+
 ---
 
-## Mão na massa - Git
+# Mão na massa - Git
 
-- Configuração Inicial do Git:
+## Configuração Inicial
 
 Utilizando o terminal, execute os seguintes comandos:
 
@@ -165,7 +195,9 @@ Utilizando o terminal, execute os seguintes comandos:
 
 ---
 
-## Mão na massa - Git
+# Mão na massa - Git
+
+## Iniciando um Projeto
 
 - Criando um Diretório:
 
@@ -179,15 +211,15 @@ Utilizando o terminal, execute os seguintes comandos:
     git init
     ```
 
+---
+
+# Mão na massa - Git
+
 - Verificar status do repositório:
 
    ```bash
    git status
    ```
-
----
-
-## Mão na massa - Git
 
 - Adicionar arquivos ao repositório:
 
@@ -209,7 +241,7 @@ Utilizando o terminal, execute os seguintes comandos:
 
 ---
 
-## Git - Gitingnore
+# Git - Gitingnore
 
 - O arquivo `.gitignore` é um arquivo de configuração do Git.
 - Ele permite que você especifique arquivos e diretórios que o Git deve ignorar.
