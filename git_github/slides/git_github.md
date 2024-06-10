@@ -5,7 +5,7 @@ header: Git e GitHub
 footer: JAPEX 2024
 paginate: true
 marp: true
-size: 4K
+# size: 4K
 ---
 <!-- markdownlint-disable MD025 MD033 MD003 MD024 -->
 
@@ -197,8 +197,6 @@ Utilizando o terminal, execute os seguintes comandos:
 
 # Mão na massa - Git
 
-## Iniciando um Projeto
-
 - Criando um Diretório:
 
    ```bash
@@ -211,15 +209,15 @@ Utilizando o terminal, execute os seguintes comandos:
     git init
     ```
 
----
-
-# Mão na massa - Git
-
 - Verificar status do repositório:
 
    ```bash
    git status
    ```
+
+---
+
+# Mão na massa - Git
 
 - Adicionar arquivos ao repositório:
 
@@ -241,12 +239,18 @@ Utilizando o terminal, execute os seguintes comandos:
 
 ---
 
-# Git - Gitingnore
+# Git - Gitignore
 
 - O arquivo `.gitignore` é um arquivo de configuração do Git.
 - Ele permite que você especifique arquivos e diretórios que o Git deve ignorar.
 - Ele é útil para ignorar arquivos temporários, arquivos de compilação, arquivos de log, etc.
 - Ele é um arquivo de texto simples.
+
+---
+
+# Fluxo de Trabalho com o Git
+
+![bg right 70%](./img/git/fluxo_de_trabalho_varios_devs.png)
 
 ---
 
