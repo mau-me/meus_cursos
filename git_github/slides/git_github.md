@@ -44,6 +44,16 @@ h1 {
 
 ---
 
+# Objetivos do Mini-Curso
+
+1. Entender o que é um Sistema de Controle de Versão.
+2. Conhecer o Git e o GitHub.
+3. Aprender as vantagens de utilizar o Git e o GitHub.
+4. Conhecer os comandos básicos do Git.
+5. Aprender a utilizar o Git e o GitHub.
+
+---
+
 # Sistema de Controle de Versão
 
 ---
@@ -251,6 +261,10 @@ Utilizando o terminal, execute os seguintes comandos:
 # Fluxo de Trabalho com o Git
 
 ![bg right 70%](./img/git/fluxo_de_trabalho_varios_devs.png)
+
+---
+
+# DÚVIDAS QUE O CHATGPT NÃO RESPONDA
 
 ---
 
