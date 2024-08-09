@@ -2,7 +2,7 @@
 title: Git e GitHub
 theme: default
 header: Git e GitHub
-footer: JAPEX 2024
+footer: Cafeína
 paginate: true
 marp: true
 # size: 4K
@@ -17,7 +17,7 @@ marp: true
 <br/>
 <br/>
 
-***JAPEX***
+***CAFEÍNA***
 
 <style scoped>
 h1 {
@@ -25,15 +25,14 @@ h1 {
 }
 </style>
 
-![bg right 70%](./img/git_github.png)
+![bg right 90%](./img/git_github.png)
 
 ---
 
 # Mauricio Souza Menezes
 
-## Bacharel em Sistema de Informação - UnEB
-
-- Desenvolvedor de Software
+- Bacharel em Sistema de Informação - UnEB
+- Arquiteto/Desenvolvedor de Software (Renova)
 - Pesquisador em Computação e Bioinformática (G2BC)
 
 ## Contato
@@ -44,7 +43,7 @@ h1 {
 
 ---
 
-# Objetivos do Mini-Curso
+# Objetivos da Apresetação
 
 1. Entender o que é um Sistema de Controle de Versão.
 2. Conhecer o Git e o GitHub.
@@ -258,9 +257,130 @@ Utilizando o terminal, execute os seguintes comandos:
 
 ---
 
-# Fluxo de Trabalho com o Git
+# GitHub
+
+---
+
+# Mão na Massa - GitHub
+
+## Criando um repositório no GitHub
+
+![w:800px](./img/github/criando_repo_01.png)
+
+---
+
+# Mão na Massa - GitHub
+
+## Criando um repositório no GitHub
+
+![w:800px](./img/github/criando_repo_02.png)
+
+---
+
+# Mão na Massa - GitHub
+
+## Criando um repositório no GitHub
+
+![w:800px](./img/github/criando_repo_03.png)
+
+---
+
+# Mão na Massa - GitHub
+
+## Criando um repositório no GitHub
+
+![w:800px](./img/github/criando_repo_02.png)
+
+---
+
+# Fluxo de Trabalho com o Git/GitHub
 
 ![bg right 70%](./img/git/fluxo_de_trabalho_varios_devs.png)
+
+---
+
+# Mão na Massa - GitHub
+
+## Clonando um repositório
+
+- Copie a URL do repositório.
+- No terminal, execute o comando:
+
+   ```bash
+   git clone <URL>
+   ```
+
+---
+
+# Mão na Massa - GitHub
+
+## Clonando um repositório
+
+- Verificar o repositório clonado:
+
+   ```bash
+   ls -la
+   ```
+
+   ```bash
+   cd <repositório>
+   ls -la
+   ```
+
+   ```bash
+   git status
+   ```
+
+---
+
+# Mão na Massa - GitHub
+
+## Pull e Push de Arquivos
+
+- Adicionar arquivos ao repositório:
+
+   ```bash
+   git add .
+   ```
+
+- Fazer um commit:
+
+   ```bash
+    git commit -m "Primeiro commit"
+    ```
+
+- Enviar arquivos para o repositório remoto:
+
+   ```bash
+      git push origin master
+   ```
+
+---
+
+# Mão na Massa - GitHub
+
+## Pull e Push de Arquivos
+
+- Atualizar o repositório local:
+
+   ```bash
+   git pull origin master
+   ```
+
+---
+
+# O que estudar agora?
+
+- Merges
+- Chaves SSH e GPG
+- Pull Request
+- Fork
+- Issues
+- GitFlow
+
+---
+
+# OBRIGADO❣️
 
 ---
 
@@ -271,6 +391,8 @@ Utilizando o terminal, execute os seguintes comandos:
 ## Referências
 
 - <https://git-scm.com/>
-- <https://guides.github.com/>
+- <https://docs.github.com/pt/>
+- <https://github.community/>
+- <https://www.youtube.com/github>
 - <https://www.atlassian.com/git/tutorials>
 - <https://www.udemy.com/course/git-e-github-para-iniciantes/>
