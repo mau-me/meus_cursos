@@ -2,22 +2,32 @@
 title: Git e GitHub
 theme: default
 header: Git e GitHub
-footer: Cafeína
+footer: JAPEX
 paginate: true
-marp: true
+maFFrp: true
 # size: 4K
 ---
+
+![bg 60%](./img/git_github.png)
+
+---
 <!-- markdownlint-disable MD025 MD033 MD003 MD024 -->
+
+<style>
+  img[alt~="center"] {
+   display: block;
+   margin: 0 auto;
+}
+</style>
 
 # Git e GitHub
 
 ## Colaboração e Controle de Versão para Qualquer Área de Conhecimento
 
 <br/>
-<br/>
-<br/>
 
-***CAFEÍNA***
+***Universidade do Estado da Bahia***
+***JAPEX***
 
 <style scoped>
 h1 {
@@ -25,7 +35,7 @@ h1 {
 }
 </style>
 
-![bg right 90%](./img/git_github.png)
+![bg right 90%](./img/octocat-maume_04.png)
 
 ---
 
@@ -119,7 +129,7 @@ h1 {
 
 ## Fluxo de Estado dos Arquivos
 
-![Armazenamento dos Arquivos no Git](./img/git/funcionamento_git_snapshots.png)
+![center](./img/git/funcionamento_git_snapshots.png)
 
 ---
 
@@ -137,7 +147,7 @@ h1 {
 
 ## Fluxo de Trabalho do Git
 
-![Fluxo de Trabalho do Git](./img/git/estados_git.png)
+![center](./img/git/estados_git.png)
 
 ---
 
@@ -265,7 +275,7 @@ Utilizando o terminal, execute os seguintes comandos:
 
 ## Criando um repositório no GitHub
 
-![w:800px](./img/github/criando_repo_01.png)
+![w:800px center](./img/github/criando_repo_01.png)
 
 ---
 
@@ -273,7 +283,7 @@ Utilizando o terminal, execute os seguintes comandos:
 
 ## Criando um repositório no GitHub
 
-![w:800px](./img/github/criando_repo_02.png)
+![w:800px center](./img/github/criando_repo_02.png)
 
 ---
 
@@ -281,7 +291,7 @@ Utilizando o terminal, execute os seguintes comandos:
 
 ## Criando um repositório no GitHub
 
-![w:800px](./img/github/criando_repo_03.png)
+![w:800px center](./img/github/criando_repo_03.png)
 
 ---
 
@@ -289,7 +299,7 @@ Utilizando o terminal, execute os seguintes comandos:
 
 ## Criando um repositório no GitHub
 
-![w:800px](./img/github/criando_repo_02.png)
+![w:800px center](./img/github/criando_repo_02.png)
 
 ---
 
