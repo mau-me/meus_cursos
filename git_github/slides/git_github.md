@@ -53,7 +53,7 @@ h1 {
 
 ---
 
-# Objetivos da Apresetação
+# Objetivos da Apresentação
 
 1. Entender o que é um Sistema de Controle de Versão.
 2. Conhecer o Git e o GitHub.
@@ -64,6 +64,16 @@ h1 {
 ---
 
 # Sistema de Controle de Versão
+
+---
+
+# Por Quê Utilizar um Sistema de Controle de Versão?
+
+---
+
+# Organização de Arquivos
+
+![w:800px center](./img/geral/organizacaoSemGit.jpg)
 
 ---
 
