@@ -313,12 +313,6 @@ Utilizando o terminal, execute os seguintes comandos:
 
 ---
 
-# Fluxo de Trabalho com o Git/GitHub
-
-![bg right 70%](./img/git/fluxo_de_trabalho_varios_devs.png)
-
----
-
 # Mão na Massa - GitHub
 
 ## Clonando um repositório
@@ -386,6 +380,12 @@ Utilizando o terminal, execute os seguintes comandos:
    ```bash
    git pull origin master
    ```
+
+---
+
+# Fluxo de Trabalho com o Git/GitHub
+
+![bg right 70%](./img/git/fluxo_de_trabalho_varios_devs.png)
 
 ---
 
