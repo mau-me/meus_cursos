@@ -1,0 +1,38 @@
+<- Código para remover erro de lint
+<!-- markdownlint-disable MD025 MD033 MD003 MD024 -->
+
+
+<- Código para centralizar uma imagem no slide ->
+<style>
+  img[alt~="center"] {
+   display: block;
+   margin: 0 auto;
+}
+</style>
+
+<- Exemplo de como centralizar uma imagem no slide ->
+![w:800px center](https://www.google.com.br/google.jpg)
+
+<- Código para adicionar uma imagem no rodapé do slide ->
+
+<!-- footer: ![w:50](./img/logo02.png)‎ ‎ ‎Renova Soluções em Tecnologia -->
+<!-- header: "STA/CBPM - Renova" -->
+
+<style>
+/* Configuração global do rodapé */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 20px 20px;
+}
+
+footer img {
+  margin-left: 20px;
+}
+
+header {
+  text-align: left;
+  padding-left: 20px;
+}
+</style>
